@@ -16,7 +16,7 @@ class Add extends Component {
       <form onSubmit={this.submissionHandler} style={addStyle}>
         <input
           style={{ flex: "9", padding: "5px 10px", align: "center" }}
-          placeholder="Add todo"
+          placeholder="Add your todo here"
           type="text"
           value={this.state.title}
           onChange={this.onChange}
